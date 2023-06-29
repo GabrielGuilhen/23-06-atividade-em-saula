@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro soma = 0
+
+		enquanto(soma < 20 ){
+			soma++
+			escreva(soma,"\n")
+			
+		}
+	}
+}
