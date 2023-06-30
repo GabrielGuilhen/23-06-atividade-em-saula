@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero, resultado 
+		inteiro contador = 0 
+		
+		
+		escreva("Informe um número para a tabuada: ")
+		leia(numero)
+		
+		enquanto(contador < 10){
+		escreva(contador++) 
+
+		     resultado = numero * contador   
+			escreva (numero, " X ", contador, " = ", resultado , "\n")
+		}
+	}
+}
