@@ -1,0 +1,22 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+	funcao inicio()
+	{
+		cadeia continuar
+		inteiro quantidade = 0
+
+		escreva("Deseja um novo numero?(Diga 'sim' para sim ou 'chega' para encerrar):")
+		leia(continuar)
+		enquanto(continuar!="chega"){
+			se(continuar == "sim"){
+				escreva("Numero aleatorio ", u.sorteia(0,100),"\n")			
+			}
+			escreva("Deseja um novo numero?(Diga 'sim' para sim ou 'chega' para encerrar):")
+			leia(continuar)		
+		}
+		escreva("Quantidade de numeros impressos: ",quantidade++)
+	}
+}
