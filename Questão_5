@@ -6,10 +6,17 @@ programa {
     escreva("Diga o numero N: ")
     leia(N)
 
-    enquanto(i<=N){
+    enquanto(i<N){
       escreva(i++, "\n")
-
+       
     }
+      escreva("\n")
+      escreva("\n")
+      escreva("\n")    
+    enquanto(i>=1){
+      escreva(i--, "\n")
+    }
+    
     
   }
 }
