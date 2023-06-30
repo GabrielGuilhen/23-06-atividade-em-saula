@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero_1, numero_2, i
+
+		escreva("Diga o 1º numero: ")
+		leia(numero_1)
+		escreva("Diga o 2º numero: ")
+		leia(numero_2)
+		i = numero_1 
+		se(numero_1 < numero_2){
+			enquanto(i < numero_2 - 1){
+				escreva(i++,"\n")				
+			}	
+			}
+			senao {
+			i = numero_1
+			enquanto(i>numero_2){
+				escreva(i++)
+		}					
+		}
+		
+	}
+}
